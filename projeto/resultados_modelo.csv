@@ -1,0 +1,11 @@
+﻿rotulo;rodada;replicas;taxa;rotas_ok;sucessos_por_s;falhas_pct;p95_latencia_ok_ms;dropped_iterations_medicao;status_job;cpu_observada_por_pod;distribuicao_aceitos_por_pod;observacoes
+piloto;calibracao;1;;;;;;;;;;
+3pods-a;A;3;;;;;;;;;;
+1pod-a;A;1;;;;;;;;;;
+2pods-a;A;2;;;;;;;;;;
+2pods-b;B;2;;;;;;;;;;
+3pods-b;B;3;;;;;;;;;;
+1pod-b;B;1;;;;;;;;;;
+1pod-c;C;1;;;;;;;;;;
+2pods-c;C;2;;;;;;;;;;
+3pods-c;C;3;;;;;;;;;;
