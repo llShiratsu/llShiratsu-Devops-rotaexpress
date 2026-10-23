@@ -1,4 +1,4 @@
-# RotaExpress — Kubernetes na prática
+# RotaExpress — Kubernetes prática
 
 - `k8s/` — manifestos (Namespace, Deployment, Service, Job)
 - `resultados/` — logs do k6 de cada execução
