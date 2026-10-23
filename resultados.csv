@@ -1,0 +1,11 @@
+﻿rotulo;rodada;replicas;taxa;rotas_ok;sucessos_por_s;falhas_pct;p95_latencia_ok_ms;dropped_iterations_medicao;status_job;cpu_observada_por_pod;distribuicao_aceitos_por_pod;observacoes
+piloto;calibracao;1;6;151;2,52;58,05;370,28;0;Failed;;;Taxa 6 escolhida: falhas e sucessos razoáveis, 0 descartadas
+3pods-a;A;3;6;251;4,18;30,47;363,81;0;Failed;163m / 222m / 229m;86 / 102 / 106;
+1pod-a;A;1;6;151;2,52;58,17;369,04;0;Failed;;151 (Pod único);Sem leitura de CPU
+2pods-a;A;2;6;224;3,73;37,95;373,11;0;Failed;;131 / 131;Sem leitura de CPU, distribuição calculada pelos contadores
+2pods-b;B;2;6;233;3,88;35,27;357,28;0;Failed;301m / 323m;137 / 136;
+3pods-b;B;3;6;266;4,43;26,31;361,32;0;Failed;123m / 121m / 160m;104 / 97 / 108;Log original restaurado após sobrescrita acidental
+1pod-b;B;1;6;153;2,55;57,49;358,71;0;Failed;336m;153 (Pod único);
+1pod-c;C;1;6;152;2,53;57,89;374,60;0;Failed;;152 (Pod único);Sem leitura de CPU
+2pods-c;C;2;6;228;3,80;36,84;366,81;0;Failed;;135 / 132;Sem leitura de CPU
+3pods-c;C;3;6;261;4,35;27,70;363,32;0;Failed;;101 / 100 / 110;Sem leitura de CPU
