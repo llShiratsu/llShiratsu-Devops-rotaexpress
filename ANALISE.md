@@ -30,7 +30,7 @@ Mais Pods aumentaram os sucessos e reduziram as falhas, mas nenhuma configuraç�
 | 2 | 1,0 CPU | 3,80 | 36,84% | 366,81 ms | 0 | p95 e descartadas |
 | 3 | 1,5 CPU | 4,35 | 27,70% | 363,32 ms | 0 | p95 e descartadas |
 
-As repetições ficaram próximas entre si. Com 1 Pod, os sucessos variaram entre 2,52 e 2,55 por segundo; com 3 Pods, entre 4,18 e 4,43. Os valores de cada execução estão no arquivo `resultados_modelo.csv` e os registros completos do k6, na pasta `resultados/`.
+As repetições ficaram próximas entre si. Com 1 Pod, os sucessos variaram entre 2,52 e 2,55 por segundo; com 3 Pods, entre 4,18 e 4,43. Os valores de cada execução estão no arquivo `resultados.csv` e os registros completos do k6, na pasta `resultados/`.
 
 **Distribuição entre os Pods.** Os contadores da aplicação, lidos antes e depois de cada teste, mostram que a carga foi dividida de forma parecida. Os números abaixo são de pedidos aceitos e incluem o aquecimento.
 
